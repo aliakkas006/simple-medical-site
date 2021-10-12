@@ -1,15 +1,16 @@
 import React from 'react';
+import './Service.css'
 
 const Service = ({ service }) => {
     const { name, description, price, time, img } = service;
     
     return (
-        <div>
+        <div className="service">
             <img src={img} alt="" />
-            <h3> {name} </h3>
+            <h2> {name} </h2>
             <p> {description} </p>
-            <h6> {time}hour </h6>
-            <h5>Price: {price} </h5>
+            <h5>Duration: {time}hour </h5>
+            <h3>Price: {price} </h3>
         </div>
     );
 };
