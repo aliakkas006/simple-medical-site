@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "replace tire",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 2000,
+        "time": 2,
+        "img": "https://i.ibb.co/tQ5YkfQ/pic-1.png"
+    },
+
+    {
+        "id": 2,
+        "name": "replace oil",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 1000,
+        "time": 1.5,
+        "img": "https://i.ibb.co/Lp3br3t/pic-2.png"
+    },
+
+    {
+        "id": 3,
+        "name": "repair car",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 4000,
+        "time": 3,
+        "img": "https://i.ibb.co/MVfCdf2/pic-3.png"
+    },
+
+    {
+        "id": 4,
+        "name": "car wash",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 800,
+        "time": 2,
+        "img": "https://i.ibb.co/0n0DRqw/pic-4.png"
+    },
+
+    {
+        "id": 5,
+        "name": "car handling",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 3000,
+        "time": 3,
+        "img": "https://i.ibb.co/ydB2h0r/pic-5.png"
+    },
+
+    {
+        "id": 6,
+        "name": "car engine service",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 5000,
+        "time": 5,
+        "img": "https://i.ibb.co/RDzyhSn/pic-6.png"
+    },
+
+    {
+        "id": 7,
+        "name": "replace tire",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
+        "price": 2000,
+        "time": 2,
+        "img": "https://i.ibb.co/Ct98YHZ/pic-7.png"
+    }
+]
