@@ -1,9 +1,10 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Card, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = ({ service }) => {
-    const { name, description, price, time, img } = service;
+    const { id, name, description, price, time, img } = service;
     
     return (
         <>
@@ -11,12 +12,15 @@ const Service = ({ service }) => {
                 <Card className="h-100">
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
-                        <Card.Title> {name} </Card.Title>
+                        <Card.Title> {name.toUpperCase()} </Card.Title>
                         <Card.Text>
                             {description}
                         </Card.Text>
                         <h5>Duration: {time} </h5>
                         <h4 className="text-warning">Price: {price} </h4>
+                        <Link to={`/servicing/${id}`}>
+                            <Button>Book {name} now!</Button>
+                        </Link>
                     </Card.Body>
                 </Card>
             </Col>
