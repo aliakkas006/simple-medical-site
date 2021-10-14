@@ -4,6 +4,7 @@ import './App.css';
 import AuthProvider from './contexts/AuthProvider';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/Home/NotFound/NotFound';
+import PrivateRoute from './Pages/Register/SignIn/PrivateRoute/PrivateRoute';
 import SignIn from './Pages/Register/SignIn/SignIn';
 import Servicing from './Pages/Servicing/Servicing/Servicing';
 import Header from './Pages/Shared/Header/Header';
@@ -28,9 +29,9 @@ function App() {
               <SignIn />
             </Route>
 
-            <Route path="/servicing/:serviceId">
+            <PrivateRoute path="/servicing/:serviceId">
               <Servicing />
-            </Route>
+            </PrivateRoute>
 
             <Route path="*">
               <NotFound />
